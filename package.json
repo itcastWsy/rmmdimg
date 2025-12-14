@@ -1,6 +1,6 @@
 {
   "name": "rmmdimg",
-  "version": "1.0.8",
+  "version": "1.1.0",
   "description": "一个用于清理Markdown文档中未引用图片的工具，自动删除medias文件夹中未被任何Markdown文件引用的图片",
   "main": "index.js",
   "scripts": {
