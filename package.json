@@ -1,7 +1,7 @@
 {
   "name": "rmmdimg",
   "version": "1.0.7",
-  "description": "",
+  "description": "一个用于清理Markdown文档中未引用图片的工具，自动删除medias文件夹中未被任何Markdown文件引用的图片",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +9,22 @@
   "bin": {
     "rmimg": "./index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "markdown",
+    "image",
+    "clean",
+    "utility",
+    "medias",
+    "unused-images"
+  ],
+  "author": "itcastWsy",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itcastWsy/rmmdimg.git"
+  },
+  "bugs": {
+    "url": "https://github.com/itcastWsy/rmmdimg/issues"
+  },
+  "homepage": "https://github.com/itcastWsy/rmmdimg#readme"
 }
